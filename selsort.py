@@ -2,8 +2,7 @@ import timeit
 start = timeit.default_timer()
 
 # All the program statements
-stop = timeit.default_timer()
-execution_time = stop - start
+
 
 def selSort(nlist):
     for slot in range(len(nlist)-1,0,-1):
@@ -20,5 +19,8 @@ nlist = [2,45,3,22,56,88,1212,34,9696,3,5,34,5,3,65,34,54,1,0]
 selSort(nlist)
 print(nlist)
 
+       
+stop = timeit.default_timer()
+execution_time = stop - start
 
 print(('{:.9f}'.format(execution_time))) # It returns time in seconds to 9 decimal places
