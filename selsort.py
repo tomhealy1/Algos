@@ -21,4 +21,4 @@ selSort(nlist)
 print(nlist)
 
 
-print(execution_time) # It returns time in seconds
+print(('{:.9f}'.format(execution_time))) # It returns time in seconds to 9 decimal places
