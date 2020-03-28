@@ -9,7 +9,7 @@ def inSort(nlist):
 
      currentvalue = nlist[i]
      pos = i
-
+#move all elements > currentvalue (key) right by 1 position
      while pos>0 and nlist[pos-1]>currentvalue:
          nlist[pos]=nlist[pos-1]
          pos = pos-1
